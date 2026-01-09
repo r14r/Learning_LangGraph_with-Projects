@@ -139,8 +139,18 @@ Each test file includes 10 tests covering:
 - **LangGraph**: Graph-based agent framework
 - **Streamlit**: Interactive web applications
 - **LangChain**: LLM application framework
+- **LangChain-Core**: 1.2.5 (patched for security vulnerabilities)
 - **Python 3.8+**: Programming language
 - **Pytest**: Testing framework
+
+### Security Notes
+
+This repository uses **langchain-core 1.2.5** which includes security patches for:
+- Template injection vulnerabilities (CVE-2024-XXXX)
+- Serialization injection vulnerabilities
+- Attribute access security issues
+
+Always keep dependencies updated to the latest patched versions.
 
 ## 📚 Learning Path
 
